@@ -14,7 +14,7 @@ redirect_from:
 
 **[\*Retrieval & Fine-Tuning for In-Context Tabular Models](https://arxiv.org/abs/2406.05207)**
 
-  *Published in **NeurIPS** Workshop, 2023 (Runner-up Best Paper Award)*
+  *Published in **ICML** Workshop, 2024; Submitted to NeurIPS 2024*
   <details>
     <summary>Abstract</summary>
 
@@ -26,7 +26,7 @@ redirect_from:
 
 **[\*\*In-Context Data Distillation with TabPFN](https://arxiv.org/abs/2402.06971)**
 
-  *Published in **NeurIPS** Workshop, 2023 (Runner-up Best Paper Award)*
+  *Published in **ICLR** Workshop, 2024*
   <details>
     <summary>Abstract</summary>
 
