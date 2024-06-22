@@ -12,10 +12,33 @@ redirect_from:
 
 # Recent Publications
 
+**[\*Retrieval & Fine-Tuning for In-Context Tabular Models](https://arxiv.org/abs/2406.05207)**
+
+  *Published in **NeurIPS** Workshop, 2023 (Runner-up Best Paper Award)*
+  <details>
+    <summary>Abstract</summary>
+
+    <small>Tabular data is a pervasive modality spanning a wide range of domains, and the inherent diversity poses a considerable challenge for deep learning. Recent advancements using transformer-based in-context learning have shown promise on smaller and less complex datasets, but have struggled to scale to larger and more complex ones. To address this limitation, we propose a combination of retrieval and fine-tuning: we can adapt the transformer to a local subset of the data by collecting nearest neighbours, and then perform task-specific fine-tuning with this retrieved set of neighbours in context. Using TabPFN as the base model -- currently the best tabular in-context learner -- and applying our retrieval and fine-tuning scheme on top results in what we call a locally-calibrated PFN, or LoCalPFN. We conduct extensive evaluation on 95 datasets curated by TabZilla from OpenML, upon which we establish a new state-of-the-art with LoCalPFN -- even with respect to tuned tree-based models. Notably, we show a significant boost in performance compared to the base in-context model, demonstrating the efficacy of our approach and advancing the frontier of deep learning in tabular data.</small>
+
+  </details>
+
+---
+
+**[\*\*In-Context Data Distillation with TabPFN](https://arxiv.org/abs/2402.06971)**
+
+  *Published in **NeurIPS** Workshop, 2023 (Runner-up Best Paper Award)*
+  <details>
+    <summary>Abstract</summary>
+
+    <small>Foundation models have revolutionized tasks in computer vision and natural language processing. However, in the realm of tabular data, tree-based models like XGBoost continue to dominate. TabPFN, a transformer model tailored for tabular data, mirrors recent foundation models in its exceptional in-context learning capability, being competitive with XGBoost's performance without the need for task-specific training or hyperparameter tuning. Despite its promise, TabPFN's applicability is hindered by its data size constraint, limiting its use in real-world scenarios. To address this, we present in-context data distillation (ICD), a novel methodology that effectively eliminates these constraints by optimizing TabPFN's context. ICD efficiently enables TabPFN to handle significantly larger datasets with a fixed memory budget, improving TabPFN's quadratic memory complexity but at the cost of a linear number of tuning steps. Notably, TabPFN, enhanced with ICD, demonstrates very strong performance against established tree-based models and modern deep learning methods on 48 large tabular datasets from OpenML.</small>
+
+  </details>
+
+---
 
 **[\*\*TabPFGen–Tabular Data Generation with TabPFN](https://openreview.net/pdf?id=4MkkNsAEmO)**
 
-  *Published in **NeurIPS** Workshop, 2023*
+  *Published in **NeurIPS** Workshop, 2023 (Runner-up Best Paper Award)*
   <details>
     <summary>Abstract</summary>
 
